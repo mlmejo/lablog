@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Lablog</title>
+
+        <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <style>
+            html,
+            body {
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column align-items-center justify-content-center">
+        <img src="{% static 'img/urios.png' %}" alt="" />
+        <a href="/sign-in" class="btn btn-primary">WELCOME</a>
+    </body>
+</html>

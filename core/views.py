@@ -5,6 +5,10 @@ from .forms import StudentForm
 from .models import Student
 
 
+def welcome(request):
+    return render(request, "welcome.html", context={})
+
+
 def home(request):
     return render(request, "home.html", context={})
 
